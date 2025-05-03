@@ -1,0 +1,11 @@
+student_id,numerical_skills_point_score,linguistic_skills_score,admitted
+001,85,90,True
+002,60,78,False
+003,92,88,True
+004,70,65,False
+005,80,95,True
+006,55,72,False
+007,90,85,True
+008,67,60,False
+009,78,88,True
+010,40,50,False
