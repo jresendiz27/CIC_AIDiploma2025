@@ -177,4 +177,4 @@ cython_debug/
 **.idea/
 *.dat
 *.mat
-./notebooks/datasets/git/*
+notebooks/datasets/git/*
