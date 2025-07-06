@@ -13,6 +13,50 @@ files = [
 ]
 
 [[package]]
+name = "ale-py"
+version = "0.11.1"
+description = "The Arcade Learning Environment (ALE) - a platform for AI research."
+optional = false
+python-versions = ">=3.9"
+groups = ["main"]
+files = [
+    {file = "ale_py-0.11.1-cp310-cp310-macosx_13_0_arm64.whl", hash = "sha256:9adbc828ad31ae4fbbfc1a43939117330d2e8165fad415b096c1796772f9053d"},
+    {file = "ale_py-0.11.1-cp310-cp310-macosx_13_0_x86_64.whl", hash = "sha256:b3473b62b66096b950274718fc7e73f85972666971da9fb5ecdb40149a7c8d6d"},
+    {file = "ale_py-0.11.1-cp310-cp310-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:46b265f9352880b1d352bfd3e55a646f6eae736d72bd9b721a68ee5885099676"},
+    {file = "ale_py-0.11.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:90318e3b3e9cfd08159da4c45a192d859fb88d6110bdad08b21b210c8693fd8a"},
+    {file = "ale_py-0.11.1-cp310-cp310-win_amd64.whl", hash = "sha256:b96757527c13bbc3b94941149dbc7060ff998eefcd2e4bfe3d5714d97fc249c8"},
+    {file = "ale_py-0.11.1-cp311-cp311-macosx_13_0_arm64.whl", hash = "sha256:1a5e6df15e38b09fd6ae1b7630d671be11f3aa668404f2bc0e0487db389e5424"},
+    {file = "ale_py-0.11.1-cp311-cp311-macosx_13_0_x86_64.whl", hash = "sha256:40cbcac183526c2b238b35cb983c60c2f018ab4019fc522b6226313052eead4a"},
+    {file = "ale_py-0.11.1-cp311-cp311-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:85b59e5346e25fb94c7052be99f8bca7e058c46ace23967088ab1310405723d1"},
+    {file = "ale_py-0.11.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:49563e62ba8929ba656046b17503346e6b9304b44384591b23004a402aba3d25"},
+    {file = "ale_py-0.11.1-cp311-cp311-win_amd64.whl", hash = "sha256:5d9beedfcc926809b5a6218da07d706596e1d6862f6830fa59ee73fff42fe007"},
+    {file = "ale_py-0.11.1-cp312-cp312-macosx_13_0_arm64.whl", hash = "sha256:9f6e10193dbce79c24cdf8d4861951f8fe7942b8a9c1e1f30d8fe67cfef62fd5"},
+    {file = "ale_py-0.11.1-cp312-cp312-macosx_13_0_x86_64.whl", hash = "sha256:a31c96cdca1cc6730b6237a22fe720397aeab16a12cd2401b227553bdf319bb1"},
+    {file = "ale_py-0.11.1-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:5c023dcd4e2a196d72b0263d3bfa84077d2d033da7ac941013b45927167afcaa"},
+    {file = "ale_py-0.11.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:8b4ba8865592677756081667908a5d4d31fee66be42b5d1843abd73dc6967743"},
+    {file = "ale_py-0.11.1-cp312-cp312-win_amd64.whl", hash = "sha256:abd6684f1e0d5ad148decd003398c50303f3dec431ffdc140b6ed9c88eb590c6"},
+    {file = "ale_py-0.11.1-cp313-cp313-macosx_13_0_arm64.whl", hash = "sha256:9b1231bd1d12edafe901f66b86c64fa030b956a0dfacfd739bcbfa792310b5b9"},
+    {file = "ale_py-0.11.1-cp313-cp313-macosx_13_0_x86_64.whl", hash = "sha256:783d641ad220588d9794726b784a28803369f6ba3c0ff3dc272a3e086bdd1fcf"},
+    {file = "ale_py-0.11.1-cp313-cp313-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:2f27d02f86b5c8fa275196ae8180fc47cbd0902511bc287c61762f1777997bd3"},
+    {file = "ale_py-0.11.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:b6697fbcb5498b336afd79138fc52a688ee3f969d235f2b2ac7e2426ad2b4b64"},
+    {file = "ale_py-0.11.1-cp313-cp313-win_amd64.whl", hash = "sha256:c46c0fe42bb1616ac30b18248071149a206ae8e656030318ad30d79450ef0721"},
+    {file = "ale_py-0.11.1-cp39-cp39-macosx_13_0_arm64.whl", hash = "sha256:c9e41890007e119baea9729f2bb2905c5fdbf2cec490a05feb127865a776475f"},
+    {file = "ale_py-0.11.1-cp39-cp39-macosx_13_0_x86_64.whl", hash = "sha256:7e822e9549011b17477789746bc2de9544b2ef3a4246380b8604ed7989e9ec7e"},
+    {file = "ale_py-0.11.1-cp39-cp39-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:b1730bd222549fae42730a548b23f3154c4165da0cfff50ba72d6248503409fc"},
+    {file = "ale_py-0.11.1-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:00510d93d45aa4d41113355530f317029ec0babef87b4e03ffdcdc63f5f417ce"},
+    {file = "ale_py-0.11.1-cp39-cp39-win_amd64.whl", hash = "sha256:0ae5a44eeeaaab185e624dc3f7fd704affdbc58722dc9f441f3997edf63d488e"},
+    {file = "ale_py-0.11.1.tar.gz", hash = "sha256:ef2f6032b6b8ec2de65a9824d575c814043ff1e7a56458a15440640b284a23cc"},
+]
+
+[package.dependencies]
+numpy = ">1.20"
+
+[package.extras]
+test = ["chex ; python_version > \"3.9\" and (sys_platform == \"win32\" or sys_platform == \"linux\")", "gymnasium (>=1.1.0)", "jax (>=0.4.31) ; python_version > \"3.9\" and (sys_platform == \"win32\" or sys_platform == \"linux\")", "opencv-python (>=3.0)", "pytest (>=7.0)"]
+vector = ["gymnasium (>=1.1.0)", "opencv-python (>=3.0)"]
+xla = ["gymnasium (>=1.1.0)", "jax (>=0.4.31) ; python_version > \"3.9\" and (sys_platform == \"win32\" or sys_platform == \"linux\")", "opencv-python (>=3.0)"]
+
+[[package]]
 name = "anyio"
 version = "4.9.0"
 description = "High level compatibility layer for multiple asynchronous event loop implementations"
@@ -212,6 +256,24 @@ dev = ["cloudpickle ; platform_python_implementation == \"CPython\"", "hypothesi
 docs = ["cogapp", "furo", "myst-parser", "sphinx", "sphinx-notfound-page", "sphinxcontrib-towncrier", "towncrier"]
 tests = ["cloudpickle ; platform_python_implementation == \"CPython\"", "hypothesis", "mypy (>=1.11.1) ; platform_python_implementation == \"CPython\" and python_version >= \"3.10\"", "pympler", "pytest (>=4.3.0)", "pytest-mypy-plugins ; platform_python_implementation == \"CPython\" and python_version >= \"3.10\"", "pytest-xdist[psutil]"]
 tests-mypy = ["mypy (>=1.11.1) ; platform_python_implementation == \"CPython\" and python_version >= \"3.10\"", "pytest-mypy-plugins ; platform_python_implementation == \"CPython\" and python_version >= \"3.10\""]
+
+[[package]]
+name = "autorom-accept-rom-license"
+version = "0.6.1"
+description = "Automated installation of Atari ROMs for Gym/ALE-Py"
+optional = false
+python-versions = ">=3.7"
+groups = ["main"]
+files = [
+    {file = "AutoROM.accept-rom-license-0.6.1.tar.gz", hash = "sha256:0c905a708d634a076f686802f672817d3585259ce3be0bde8713a4fb59e3159e"},
+]
+
+[package.dependencies]
+click = "*"
+requests = "*"
+
+[package.extras]
+tests = ["ale_py", "multi_agent_ale_py"]
 
 [[package]]
 name = "babel"
@@ -478,6 +540,18 @@ files = [
 
 [package.dependencies]
 colorama = {version = "*", markers = "platform_system == \"Windows\""}
+
+[[package]]
+name = "cloudpickle"
+version = "3.1.1"
+description = "Pickler class to extend the standard pickle.Pickler functionality"
+optional = false
+python-versions = ">=3.8"
+groups = ["main"]
+files = [
+    {file = "cloudpickle-3.1.1-py3-none-any.whl", hash = "sha256:c8c5a44295039331ee9dad40ba100a9c7297b6f988e50e87ccdf3765a668350e"},
+    {file = "cloudpickle-3.1.1.tar.gz", hash = "sha256:b216fa8ae4019d5482a8ac3c95d8f6346115d8835911fd4aefd1a445e4242c64"},
+]
 
 [[package]]
 name = "colorama"
@@ -784,6 +858,18 @@ files = [
 tests = ["asttokens (>=2.1.0)", "coverage", "coverage-enable-subprocess", "ipython", "littleutils", "pytest", "rich ; python_version >= \"3.11\""]
 
 [[package]]
+name = "farama-notifications"
+version = "0.0.4"
+description = "Notifications for all Farama Foundation maintained libraries."
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "Farama-Notifications-0.0.4.tar.gz", hash = "sha256:13fceff2d14314cf80703c8266462ebf3733c7d165336eee998fc58e545efd18"},
+    {file = "Farama_Notifications-0.0.4-py3-none-any.whl", hash = "sha256:14de931035a41961f7c056361dc7f980762a143d05791ef5794a751a2caf05ae"},
+]
+
+[[package]]
 name = "fastjsonschema"
 version = "2.21.1"
 description = "Fastest Python implementation of JSON schema"
@@ -1054,6 +1140,77 @@ files = [
 
 [package.extras]
 protobuf = ["grpcio-tools (>=1.73.0)"]
+
+[[package]]
+name = "gym"
+version = "0.25.2"
+description = "Gym: A universal API for reinforcement learning environments"
+optional = false
+python-versions = ">=3.6"
+groups = ["main"]
+files = [
+    {file = "gym-0.25.2.tar.gz", hash = "sha256:c8323f4c6f37363710b519742a0094316deddc9d8fc9e3f6deac08d6da47150c"},
+]
+
+[package.dependencies]
+cloudpickle = ">=1.2.0"
+gym_notices = ">=0.0.4"
+numpy = ">=1.18.0"
+
+[package.extras]
+accept-rom-license = ["autorom[accept-rom-license] (>=0.4.2,<0.5.0)"]
+all = ["ale-py (>=0.7.5,<0.8.0)", "box2d-py (==2.3.5)", "imageio (>=2.14.1)", "lz4 (>=3.1.0)", "matplotlib (>=3.0)", "mujoco (==2.2.0)", "mujoco_py (>=2.1,<2.2)", "opencv-python (>=3.0)", "pygame (==2.1.0)", "pytest (==7.0.1)", "swig (==4.*)"]
+atari = ["ale-py (>=0.7.5,<0.8.0)"]
+box2d = ["box2d-py (==2.3.5)", "pygame (==2.1.0)", "swig (==4.*)"]
+classic-control = ["pygame (==2.1.0)"]
+mujoco = ["imageio (>=2.14.1)", "mujoco (==2.2.0)"]
+mujoco-py = ["mujoco_py (>=2.1,<2.2)"]
+other = ["lz4 (>=3.1.0)", "matplotlib (>=3.0)", "opencv-python (>=3.0)"]
+testing = ["box2d-py (==2.3.5)", "imageio (>=2.14.1)", "lz4 (>=3.1.0)", "matplotlib (>=3.0)", "mujoco (==2.2.0)", "mujoco_py (>=2.1,<2.2)", "opencv-python (>=3.0)", "pygame (==2.1.0)", "pytest (==7.0.1)", "swig (==4.*)"]
+toy-text = ["pygame (==2.1.0)"]
+
+[[package]]
+name = "gym-notices"
+version = "0.0.8"
+description = "Notices for gym"
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "gym-notices-0.0.8.tar.gz", hash = "sha256:ad25e200487cafa369728625fe064e88ada1346618526102659b4640f2b4b911"},
+    {file = "gym_notices-0.0.8-py3-none-any.whl", hash = "sha256:e5f82e00823a166747b4c2a07de63b6560b1acb880638547e0cabf825a01e463"},
+]
+
+[[package]]
+name = "gymnasium"
+version = "0.29.1"
+description = "A standard API for reinforcement learning and a diverse set of reference environments (formerly Gym)."
+optional = false
+python-versions = ">=3.8"
+groups = ["main"]
+files = [
+    {file = "gymnasium-0.29.1-py3-none-any.whl", hash = "sha256:61c3384b5575985bb7f85e43213bcb40f36fcdff388cae6bc229304c71f2843e"},
+    {file = "gymnasium-0.29.1.tar.gz", hash = "sha256:1a532752efcb7590478b1cc7aa04f608eb7a2fdad5570cd217b66b6a35274bb1"},
+]
+
+[package.dependencies]
+cloudpickle = ">=1.2.0"
+farama-notifications = ">=0.0.1"
+numpy = ">=1.21.0"
+typing-extensions = ">=4.3.0"
+
+[package.extras]
+accept-rom-license = ["autorom[accept-rom-license] (>=0.4.2,<0.5.0)"]
+all = ["box2d-py (==2.3.5)", "cython (<3)", "imageio (>=2.14.1)", "jax (>=0.4.0)", "jaxlib (>=0.4.0)", "lz4 (>=3.1.0)", "matplotlib (>=3.0)", "moviepy (>=1.0.0)", "mujoco (>=2.3.3)", "mujoco-py (>=2.1,<2.2)", "opencv-python (>=3.0)", "pygame (>=2.1.3)", "shimmy[atari] (>=0.1.0,<1.0)", "swig (==4.*)", "torch (>=1.0.0)"]
+atari = ["shimmy[atari] (>=0.1.0,<1.0)"]
+box2d = ["box2d-py (==2.3.5)", "pygame (>=2.1.3)", "swig (==4.*)"]
+classic-control = ["pygame (>=2.1.3)", "pygame (>=2.1.3)"]
+jax = ["jax (>=0.4.0)", "jaxlib (>=0.4.0)"]
+mujoco = ["imageio (>=2.14.1)", "mujoco (>=2.3.3)"]
+mujoco-py = ["cython (<3)", "cython (<3)", "mujoco-py (>=2.1,<2.2)", "mujoco-py (>=2.1,<2.2)"]
+other = ["lz4 (>=3.1.0)", "matplotlib (>=3.0)", "moviepy (>=1.0.0)", "opencv-python (>=3.0)", "torch (>=1.0.0)"]
+testing = ["pytest (==7.1.3)", "scipy (>=1.7.3)"]
+toy-text = ["pygame (>=2.1.3)", "pygame (>=2.1.3)"]
 
 [[package]]
 name = "h11"
@@ -4716,4 +4873,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12,<4"
-content-hash = "cc6e83b293e75c7d2cdb71c3147c265b4f8f2cedcb32d609f24ed009cdcb741a"
+content-hash = "f7d299d3d6b0116c01b3d430aa843e9aa60d21c6bf48089569b74739f9d4d3fe"

@@ -185,6 +185,10 @@ wheel = "0.45.1"
 wordcloud = "1.9.4"
 wrapt = "1.17.2"
 zipp = "3.23.0"
+ale-py = "^0.11.1"
+gym = "0.25.2"
+gymnasium = "0.29.1"
+autorom-accept-rom-license = "0.6.1"
 
 
 
