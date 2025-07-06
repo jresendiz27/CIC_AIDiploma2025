@@ -178,3 +178,4 @@ cython_debug/
 *.dat
 *.mat
 notebooks/datasets/git/*
+notebooks/datasets/pacman_screenshots/*
